@@ -1,0 +1,25 @@
+export const traitDataSet14 = [
+    // origins
+    { trait: "Anima Squad", units: ["Seraphine", "Sylas", "Illaoi", "Vayne", "Yuumi", "Leona", "Xayah", "Aurora"], color: "pink" },
+    { trait: "BoomBots", units: ["Kog'Maw", "Skarner", "Fiddlesticks", "Cho'Gath", "Urgot"], color: "orange" },
+    { trait: "Cyberboss", units: ["Poppy", "Veigar", "Ziggs", "Kobuko"], color: "darkblue" },
+    { trait: "Cypher", units: ["Vi", "LeBlanc", "Draven", "Galio", "Zed"], color: "green" },
+    { trait: "Divinicorp", units: ["Morgana", "Rhaast", "Gragas", "Senna", "Vex", "Renekton"], color: "lightblue" },
+    { trait: "Exotech", units: ["Jax", "Jhin", "Naafiri", "Mordekaiser", "Varus", "Zeri", "Sejuani"], color: "gray" },
+    { trait: "Golden Ox", units: ["Alistar", "Graves", "Jarvan IV", "Annie", "Aphelios", "Viego"], color: "gold" },
+    { trait: "Nitro", units: ["Kindred", "Nidalee", "Shyvana", "Elise"], color: "red" },
+    { trait: "Street Demon", units: ["Dr. Mundo", "Zyra", "Ekko", "Jinx", "Rengar", "Brand", "Neeko", "Samira"], color: "teal" },
+    { trait: "Syndicate", units: ["Shaco", "Darius", "Twisted Fate", "Braum", "Miss Fortune"], color: "purple" },
+    // classes 
+    { trait: "A.M.P.", units: ["Nidalee", "Naafiri", "Yuumi", "Annie", "Samira"], color: "lightblue" },
+    { trait: "Bastion", units: ["Jax", "Poppy", "Illaoi", "Shyvana", "Galio", "Sejuani", "Renekton"], color: "gray" },
+    { trait: "Bruiser", units: ["Alistar", "Dr. Mundo", "Daruis", "Gragas", "Mordekaiser", "Cho'Gath", "Kobuko"], color: "brown" },
+    { trait: "Dynamo", units: ["Morgana", "Jhin", "Elise", "Miss Fortune", "Aurora"], color: "purple" },
+    { trait: "Executioner", units: ["Graves", "Rengar", "Varus", "Vex", "Urgot"], color: "red" },
+    { trait: "Marksman", units: ["Kindred", "Jhin", "Jinx", "Aphelios", "Xayah"], color: "orange" },
+    { trait: "Rapidfire", units: ["Kindred", "Kog'Maw", "twisted Fate", "Draven", "Zeri"], color: "white" },
+    { trait: "Slayer", units: ["Dr. Mundo", "Shaco", "Vayne", "Jarvan IV", "Senna", "Zed"], color: "magenta" },
+    { trait: "Strategist", units: ["Ekko", "LeBlanc", "Yuumi", "Neeko", "Ziggs"], color: "teal" },
+    { trait: "Techie", units: ["Seraphine", "Zyra", "Shyvana", "Veigar", "Fiddlesticks", "Mordekaiser", "Brand", "Viego"], color: "darkblue" },
+    { trait: "Vanguard", units: ["Sylas", "Vi", "Rhaast", "Skarner", "Braum", "Jarvan IV", "Leona"], color: "lightgray" },
+];
