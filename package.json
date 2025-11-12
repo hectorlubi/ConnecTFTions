@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://hectorlubi.github.io/connectftions/",
-
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
