@@ -3,7 +3,7 @@
 A fan-made **NYT Connections–style** puzzle game themed around **Teamfight Tactics (TFT)**!
 Group units by their **shared traits, origins, or costs** before running out of mistakes.
 
-**Play it here:** [https://your-username.github.io/ConnecTFTions/](https://your-username.github.io/ConnecTFTions/)
+**Play it here:** [https://hectorlubi.github.io/ConnecTFTions/](https://hectorlubi.github.io/ConnecTFTions/)
 
 ---
 
