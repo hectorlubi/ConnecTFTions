@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hectorlub.github.io/connectftions/",
+  "homepage": "https://hectorlubi.github.io/connectftions/",
 
   "scripts": {
     "predeploy": "npm run build",
