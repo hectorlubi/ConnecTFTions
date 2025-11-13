@@ -10,13 +10,23 @@ import { useGame } from './hooks/useGame';
 import { availableSets } from './data/sets';
 import './App.css';
 
+/**
+ * App Component
+ * ----------------
+ * Main entry point for the ConnecTFTions game.
+ * Handles current set selection, background image, and integrates
+ * all game components (grid, controls, solved groups, modals, etc.).
+ */
 function App() {
+  // === State for current set and related data ===
   const [currentSet, setCurrentSet] = useState(15);
   const [traitData, setTraitData] = useState(availableSets[15].data);
   const [backgroundImage, setBackgroundImage] = useState(availableSets[15].background);
 
+  // === contains all game state and actions ===
   const game = useGame(traitData);
 
+  // === Handle switching between sets ===
   const handleSetChange = (setNumber) => {
     setCurrentSet(setNumber);
     setTraitData(availableSets[setNumber].data);
@@ -37,16 +47,20 @@ function App() {
       <div className="container">
         <Header currentSet={currentSet} />
 
+        {/* Dropdown to switch between available sets */}
         <SetSelector
           currentSet={currentSet}
           onSetChange={handleSetChange}
           availableSets={availableSets}
         />
 
+        {/* Game info: mistakes counter */}
         <GameInfo mistakes={game.mistakes} maxMistakes={game.maxMistakes} />
 
+        {/* Display solved groups */}
         <SolvedGroups solvedGroups={game.solvedGroups} />
 
+        {/* Main puzzle grid */}
         <GameGrid
           tiles={game.tiles}
           selected={game.selected}
@@ -54,6 +68,7 @@ function App() {
           isSubmitting={game.isSubmitting}
         />
 
+        {/* Control buttons: shuffle, deselect, submit, new puzzle */}
         <Controls
           onShuffle={game.shuffleTiles}
           onDeselect={game.deselectAll}
@@ -62,6 +77,7 @@ function App() {
           submitDisabled={game.selected.length !== 4}
         />
 
+        {/* Modal for win/game over messages */}
         <Modal
           show={game.showModal}
           title={game.modalTitle}
